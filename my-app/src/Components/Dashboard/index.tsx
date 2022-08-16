@@ -1,12 +1,15 @@
 import React from 'react'
 import { Container } from './styles'
 
-import { Sumario } from '../Summary/index'
+
+import { Susu } from '../Susu/index'
+import { Transection } from '../Transections'
 
 export function Dashboard() {
   return (
     <Container>
-      <Sumario />
+      <Susu />
+      <Transection />
     </Container>
   )
 }
