@@ -1,11 +1,14 @@
-import React from "react"
+import React, {useContext} from "react"
 import { Container } from './styles'
 
 import incomeImage from '../../assets/income.svg'
 import outcomeImage from '../../assets/outcome.svg'
 import total from '../../assets/total.svg'
+import { TransactionsContext } from "../../TransactionsContext"
 
 export function Susu(){
+  const transactions = useContext(TransactionsContext)
+
   return(
     <Container>
       <div>

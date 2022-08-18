@@ -1,16 +1,16 @@
-import React from 'react'
-import { Container } from './styles'
+import { Susu } from "../Susu";
+import { TransactionsTable } from "../TransectionsTable";
+import { Container } from "./styles";
 
-
-import { Susu } from '../Susu/index'
-import { Transection } from '../Transections'
 
 export function Dashboard() {
-  return (
-    <Container>
-      <Susu />
-      <Transection />
-    </Container>
-  )
+    return (
+        <Container> 
+            
+            <Susu />
+            <TransactionsTable />
+          
+        </Container>
+    );
 }
 
