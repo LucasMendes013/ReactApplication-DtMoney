@@ -7,7 +7,8 @@ import total from '../../assets/total.svg'
 import { TransactionsContext } from "../../TransactionsContext"
 
 export function Susu(){
-  const transactions = useContext(TransactionsContext)
+  const { transactions } = useContext(TransactionsContext)
+  console.log(transactions)
 
   return(
     <Container>
